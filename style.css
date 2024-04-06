@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: white;
+    border: 1px solid black;
+    padding: 25px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+main{
+    width: 100%;
+    height: 9000px;
+}
+
+/* INIZIO HEADER */
+.container{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    width: calc(100% / 2);
+}
+
+.header-content{
+    width: 900px;
+}
+
+.header-content ul{
+    list-style-type: none;
+}
+
+.header-content ul li{
+    display: inline-block;
+    padding-top: 5px;
+    color: black;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.inizia{
+    background-color: rgba(0,97,255,255);
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+.container-main-1{
+    max-width: 1900px;
+    margin: 0 auto;
+    background-color: rgba(180,208,231,255);
+    height: 790px;
+    padding-top: 80px;
+}
+
+.row-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100-main{
+    margin-top: 90px;
+    margin-left: 550px;
+    margin-right: 475px;  
+}
+
+.titolo-1{
+    text-align: left;
+    font-size: 65px;
+}
+
+.col-20-main-1{
+    width: calc(30% / 2);
+    height: 500px;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.descrizione-1{
+    font-size: 17px;
+    text-align: left;
+}
+
+.div-prova-gratuita{
+    margin-top: 40px;
+}
+
+.prova-gratuita{
+    background-color: rgba(0,97,255,255);
+    padding: 10px 10px;
+}
+
+.annulla{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.col-20-main-2{
+    width: calc(80% / 2);
+    height: 500px;
+    margin-top: 40px;
+}
+
+.jumbo{
+    width: 950px;
+    height: 510px;
+}
+
+.container-main-2{
+    padding-top: 100px;
+}
+
+.col-100-main-1{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.titolo-2{
+    text-align: center;
+    font-size: 65px;
+}
+
+.col-100-main-1-2{
+    width: 100%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.fatturazione{
+    padding-top: 40px;
+}
+
+.fattura-2{
+    margin-left: 50px;
+}
+
+.col-50-main-1{
+    width: calc(100% / 5);
+    height: 900px;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.col-50-main-2{
+    width: calc(100% / 5);
+    height: 900px;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col-50-main-3{
+    width: calc(100% / 5);
+    height: 900px;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    
+}
+
+.singolo-1{
+    padding-left: 20px;
+}
+
+.singolo-titolo{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.singolo-prezzo{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.singolo-mese{
+    color: gray;
+    padding-top: 15px;
+}
+
+.singolo-utente{
+    padding-top: 50px;
+}
+
+.singolo-spazio-archiviazione{
+    padding-top: 20px;
+}
+
+.singolo-condivisione{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.singolo-prova-gratuita-1{
+    padding-top: 70px;
+}
+
+.singolo-prova-gratuita-2{
+    background-color: rgba(0,97,255,255);
+    padding: 10px 30px;
+}
+
+.opzione{
+    padding-top: 50px;
+}
+
+.linea-piccola{
+    padding-right: 300px;
+    padding-top: 40px; 
+    color: lightgray;   
+}
+
+.punti-salienti-titolo{
+    padding-top: 50px;
+}
+
+.punti-salienti-1{
+    padding-top: 20px;
+}
+
+.punti-salienti-2{
+    padding-top: 20px;
+}
+
+.col-100-main-2{
+    width: 1240px;
+    height: 230px;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.mini-col-1{
+    width: calc(100% / 2);
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.enterprise{
+    font-size: 30px;
+}
+
+.enterprise-1{
+    padding-top: 10px;
+}
+
+.mini-col-2{
+    width: calc(100% / 2);
+    height: 100px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.contatta{
+    background-color: rgba(0,97,255,255);
+    padding: 10px 30px;
+}
+
+.mini-col-3{
+    width: 700px;
+    height: 80px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.col-10-main-1{
+    width: calc(100% / 2);
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.img-partner {
+    width: 700px;
+    height: 570px;
+    margin-left: 290px;
+}
+
+.col-10-main-2{
+    width: 350px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.titolo-main-2{
+    padding-top: 70px;
+}
+
+.testo-titolo-main-2{
+    font-size: 30px;
+}
+
+.descrizione-main-2{
+    padding-top: 20px;
+}
+
+.testo-descrizione-main-2{
+    font-size: 19px;
+}
+
+.trova-partner{
+    padding-top: 30px;
+}
+
+.button-trova-partner{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+.col-100-main-3 {
+    width: 100%;
+    height: 100px;
+    margin-left: 355px;
+    margin-right: 365px;
+}
+
+.font-titolo-generale-dropbox-bussiness{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.col-60-main-1{
+    width: 395px;
+    height: 515px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.col-60-main-2{
+    width: 395px;
+    height: 515px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.col-60-main-3{
+    width: 395px;
+    height: 515px;
+    margin-top: 50px;
+    
+}
+
+.img-dropbox-bussiness{
+    width: 393px;
+    height: 300px;
+}
+
+.font-titolo-dropbox-bussiness{
+    font-size: 30px;
+}
+
+.font-testo-dropbpx-bussiness{
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.col-100-main-4 {
+    width: 100%;
+    height: 300px;
+    margin-left: 316px;
+    margin-right: 700px;
+}
+
+.numero-utenti{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.square-section{
+    display: flex;
+}
+
+.square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.small-square-1{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(162,211,155,255);
+    
+}
+
+.small-square-2{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(97,8,43,255);
+    
+}
+
+.small-square-3{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(0,147,206,255);
+    
+}
+
+.small-square-4{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(255,28,28,255);
+    
+}
+
+.img-square{
+    width: 300px;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.hr-square{
+    margin-right: 500px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.testo-square{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+.autore-square{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+.small-square-5{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(213,0,31,255);
+    
+}
+
+.small-square-6{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(180,208,231,255);
+    
+}
+
+.small-square-7{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(13,36,129,255);
+    
+}
+
+.small-square-8{
+    width: 316px;
+    height: 50%;
+    background-color: rgba(255,216,48,255);
+    
+}
+
+.size-small-square{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.height-full{
+    height: 100%;
+}
+
+.height-500{
+    height: 500px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.col-100-main-5{
+    background-color: rgba(180,208,231,255);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-left: 275px;
+}
+
+.mini-col-4{
+    width: calc(100% / 2);
+    height: 100px;
+    margin-top: 100px;
+}
+
+.text-mini-col-4{
+    color: rgba(97,8,43,255);
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.mini-col-5{
+    width: calc(100% / 2);
+    height: 100px;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.text-mini-col-5{
+    background-color: white;
+    padding: 10px 30px;
+}
+
+
+
+
+
+
+.col-100-main-6{
+    width: 100%;
+    height: 500px;
+    padding: 100px 400px;
+    font-size: 20px;
+}
+
+.domande{
+    padding-bottom: 30px;
+}
+
+.lista{
+    padding: 30px 0px;
+}
+
+.down-arrow{
+    padding-left: 440px;
+}
